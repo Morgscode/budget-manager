@@ -158,7 +158,7 @@ export default {
     ...mapMutations(["setAddItemMode", "setEditItemMode"]),
     validateBudgetItem(newBudgetItem) {
       // parse value to interger
-      newBudgetItem.itemValue = parseInt(newBudgetItem.itemValue);
+      newBudgetItem.itemValue = parseFloat(newBudgetItem.itemValue).toFixed(2);
       if (
         // check form fields are filled out
         newBudgetItem.itemType &&
