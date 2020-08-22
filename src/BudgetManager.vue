@@ -178,6 +178,10 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
+  .d-grid > * {
+    padding: 0.5em;
+  }
+
   .p-t-s {
     padding-top: 0.5rem;
   }

@@ -168,7 +168,7 @@ export default {
         // return the new item
         return newBudgetItem;
       } else {
-        alert("please fill out all fields and ensure the item has a value");
+        alert("please ensure the item has description and numerical value");
         return false; // bail
       }
     },
