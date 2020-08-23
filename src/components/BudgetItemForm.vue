@@ -211,8 +211,6 @@ export default {
           id: 0,
         };
       }
-      // reset the add state to true
-      this.isAdd = true;
     },
     submitNewBudgetItem(budgetItem) {
       const newBudgetItem = budgetItem;
