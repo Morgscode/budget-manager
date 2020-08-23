@@ -1,7 +1,10 @@
 
 <style type="text/css" scoped>
 .row-auto-fit {
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+}
+
+@media only screen and (max-width: 576px) {
 }
 </style>
 
