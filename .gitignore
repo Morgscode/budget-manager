@@ -2,6 +2,9 @@
 node_modules
 /dist
 
+#workspace veuter config
+jsconfig.json
+
 
 # local env files
 .env.local
