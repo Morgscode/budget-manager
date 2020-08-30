@@ -100,6 +100,7 @@ body {
   min-width: 300px;
   min-height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #2d3436;
 }
 
 #app {

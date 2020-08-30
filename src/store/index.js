@@ -1,5 +1,5 @@
-import Vuex from "vuex";
 import Vue from "vue";
+import Vuex from "vuex";
 import budgetManagerStates from "./modules/budgetManagerStates";
 import expenditureItems from "./modules/expenditureItems";
 import incomeItems from "./modules/incomeItems";
