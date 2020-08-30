@@ -10,8 +10,6 @@
 .budget-form__group {
   background-color: rgba(149, 165, 166, 0.5);
   border-radius: 6px;
-  display: flex;
-  flex-direction: column;
 }
 
 .budget-form__group--radio {
@@ -21,7 +19,7 @@
 }
 
 .budget-form__input {
-  display: block;
+  display: inline-block;
   padding: 5px 7px;
   border-radius: 6px;
   border: none;
@@ -67,6 +65,22 @@
   transform: translateY(3px) scale(0.99);
   box-shadow: none;
 }
+
+@media only screen and (max-width: 576px) {
+  .budget-form__group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .budget-form__group--radio {
+    flex-direction: row;
+  }
+
+  .budget-form__group label {
+    display: inline-block;
+    margin-bottom: 0.5em;
+  }
+}
 </style>
 
 <template>
@@ -98,7 +112,7 @@
           </div>
         </div>
         <div class="budget-form__group">
-          <label class="m-b-s" for="item-description">Name:&nbsp;</label>
+          <label for="item-description">Name:&nbsp;</label>
           <input
             class="budget-form__input budget-form__input--description"
             type="text"
@@ -107,7 +121,7 @@
           />
         </div>
         <div class="budget-form__group">
-          <label class="m-b-s" for="item-value">Item Value:&nbsp;</label>
+          <label for="item-value">Item Value:&nbsp;</label>
           <input class="budget-form__input" type="number" v-model="budgetItem.itemValue" />
         </div>
       </div>
