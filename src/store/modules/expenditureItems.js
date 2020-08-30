@@ -2,11 +2,7 @@ const state = {
   expenditureItems: {
     title: "Expenditure Items",
     type: "exp",
-    data: [
-      /*{ id: 1, itemDescription: "driving", itemValue: 240, itemType: "exp" },
-      { id: 2, itemDescription: "weed", itemValue: 180, itemType: "exp" },
-      { id: 3, itemDescription: "tax", itemValue: 200, itemType: "exp" },*/
-    ],
+    data: [],
   },
 };
 
