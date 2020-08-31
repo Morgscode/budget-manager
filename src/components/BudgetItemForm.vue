@@ -74,6 +74,16 @@
 
   .budget-form__group--radio {
     flex-direction: row;
+    align-items: center;
+  }
+
+  .budget-form__group--radio > * {
+    display: flex;
+    align-items: center;
+  }
+
+  .budget-form__group--radio .budget-form__input label {
+    margin-bottom: 0px;
   }
 
   .budget-form__group label {
