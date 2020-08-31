@@ -5,6 +5,13 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .total__wrapper > * {
+    margin-block-start: 0.5em;
+    margin-block-end: 0em;
+  }
+}
+
+@media only screen and (max-width: 576px) {
 }
 </style>
 
