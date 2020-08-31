@@ -85,7 +85,7 @@
 
 <template>
   <div id="BudgetItemForm">
-    <form class="budget-form" @submit.prevent>
+    <form class="budget-form" @submit.prevent="showForm()">
       <div class="budget-form__group--wrapper d-grid row-auto-fit m-b-m">
         <div class="budget-form__group budget-form__group--radio">
           <div class="budget-form__input">
@@ -257,6 +257,9 @@ export default {
         // reset form
         this.resetForm(updatedItem);
       }
+    },
+    showForm() {
+      console.log(this);
     },
   },
 };
