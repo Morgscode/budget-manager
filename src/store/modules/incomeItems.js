@@ -2,11 +2,7 @@ const state = {
   incomeItems: {
     title: "Income Items",
     type: "inc",
-    data: [
-      /*{ id: 1, itemDescription: "salary", itemValue: 1600, itemType: "inc" },
-      { id: 2, itemDescription: "freelance", itemValue: 10, itemType: "inc" },
-      { id: 3, itemDescription: "tax-rebate", itemValue: 200, itemType: "inc" },*/
-    ],
+    data: [],
   },
 };
 

@@ -5,7 +5,6 @@ node_modules
 #workspace veuter config
 jsconfig.json
 
-
 # local env files
 .env.local
 .env.*.local
